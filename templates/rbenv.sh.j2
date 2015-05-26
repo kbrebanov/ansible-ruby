@@ -4,7 +4,7 @@
 if [ -s "${HOME}/.rbenv/bin" ]; then
     rbenv_root="${HOME}/.rbenv"
 else
-    rbenv_root=/usr/local/rbenv
+    rbenv_root={{ rbenv_install_dir }}
 fi
 
 export RBENV_ROOT="${rbenv_root}"

@@ -1,7 +1,7 @@
 ---
 # vars file for ruby (Ubuntu specific)
 
-ruby_build_dependencies:
+ruby_packages:
   - autoconf
   - bison
   - build-essential
