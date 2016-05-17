@@ -15,7 +15,7 @@ Role Variables
 
 | Name         | Default | Description                |
 |:-------------|:--------|:---------------------------|
-| ruby_version | 2.2.3   | Version of Ruby to install |
+| ruby_version | 2.3.1   | Version of Ruby to install |
 
 Dependencies
 ------------
