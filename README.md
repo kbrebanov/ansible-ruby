@@ -1,7 +1,7 @@
 ruby
 ====
 
-[![Ansible Role](https://img.shields.io/ansible/role/3932.svg)](https://galaxy.ansible.com/list#/roles/3932)
+[![Build Status](https://travis-ci.org/kbrebanov/ansible-ruby.svg?branch=master)](https://travis-ci.org/kbrebanov/ansible-ruby)
 
 Installs Ruby
 
