@@ -27,17 +27,19 @@ Example Playbook
 
 
 Install Ruby
-```
+```yaml
 - hosts: all
   roles:
-    - { role: kbrebanov.ruby }
+    - kbrebanov.ruby
 ```
 
 Install older version of Ruby
-```
+```yaml
 - hosts: all
+  vars:
+    ruby_version: 2.2.1
   roles:
-    - { role: kbrebanov.ruby, ruby_version: 2.2.1 }
+    - kbrebanov.ruby
 ```
 
 License
