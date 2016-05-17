@@ -2,8 +2,10 @@
 # handlers file for ruby
 
 - name: rbenv rehash
+  become: yes
   shell: rbenv rehash
   environment:
     PATH: "{{ rbenv_install_dir }}/bin:{{ ansible_env.PATH }}"
     RBENV_ROOT: "{{ rbenv_install_dir }}"
-  tags: ruby
+  tags:
+    - ruby
