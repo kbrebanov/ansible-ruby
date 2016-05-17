@@ -8,13 +8,13 @@ Installs Ruby
 Requirements
 ------------
 
-This role requires Ansible 1.4 or higher.
+This role requires Ansible 1.9 or higher.
 
 Role Variables
 --------------
 
 | Name         | Default | Description                |
-|--------------|---------|----------------------------|
+|:-------------|:--------|:---------------------------|
 | ruby_version | 2.2.3   | Version of Ruby to install |
 
 Dependencies
